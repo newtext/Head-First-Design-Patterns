@@ -12,7 +12,7 @@ Easier to add new behaviors to existing class (Duck) by delegating its features 
 
 Model Duck have flying behavior, but it cannot quack since quack behavior was not set in the constructor.
 
-Model Duck can start using quack behaviors by dynamically setting the quack feature by using setQuackBehavior.
+Model Duck can start using quack behaviors by dynamically setting the quack feature by using setQuackBehavior or add the behaviors in the constructor.
 
 1. Ducks
    - IS a

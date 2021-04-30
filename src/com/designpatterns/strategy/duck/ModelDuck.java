@@ -1,11 +1,12 @@
 package com.designpatterns.strategy.duck;
 
 import com.designpatterns.strategy.behaviors.FlyNoWay;
-import com.designpatterns.strategy.behaviors.Quack;
+import com.designpatterns.strategy.behaviors.MuteQuack;
 
 public class ModelDuck extends Duck{
 
     public ModelDuck() {
+//        quackBehavior = new MuteQuack();
         flyBehavior = new FlyNoWay();
     }
 
