@@ -26,5 +26,10 @@ Model Duck can start using quack behaviors by dynamically setting the quack feat
         - Flying Behavior
         - Quack Behavior
         - XXX Behaviors
-    
 
+
+With this design, other types of objects can reuse our fly and quack behaviors because
+these behaviors are no longer hidden away in our Duck classes!
+
+And we can add new behaviors without modifying any of our existing behavior
+classes or touching any of the Duck classes that use flying behaviors.
