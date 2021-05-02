@@ -3,8 +3,6 @@
 The <b> Observer Pattern </b> defines a one-to-many dependency between objects so that 
 when one object changes state, all of its dependents are notified and updated automatically.
 
-Observer Pattern is one to many
-
 You can implement your own Observer class or use Java util of Observer and Observable
 
 Extend Observable to mark the class as the subject 
