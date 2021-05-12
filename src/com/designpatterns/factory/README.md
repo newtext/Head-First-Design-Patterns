@@ -8,8 +8,7 @@ for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer
 instantiation to subclasses.
 
-####The Creator Classes
-
+#### The Creator Classes
     1. PizzaStore -> createPizza() and orderPizza()
         - NYPizzaStore ->       createPizza() method is our factory method 
                                 that will create the products
@@ -18,14 +17,14 @@ instantiation to subclasses.
 
 This allows the flexibility of allowing each pizza store or franchise to get its own class store
 
-####The Product Classes
+#### The Product Classes
     1. Pizza - Factories produce products and Listed below are concrete Products
         - NYStyleCheesePizza            - ChicagoStyleCheesePizza
         - NYStylePepperoniPizza         - ChicagoStylePepperoniPizza
         - NYStyleClamPizza              - ChicagoStyleClamPizza
         - NYStyleVeggiePizza            - ChicagoStyleVeggiePizza
 
-####Factory Method Pattern Defined
+#### Factory Method Pattern Defined
     Product                 Creator
                             -factoryMethod()
                             -anOperation()
