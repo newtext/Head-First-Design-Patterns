@@ -20,7 +20,8 @@ getInstance() method and create two different Singleton object.
     }
 
 #### Method Two
-    Application will always have Singleton object even if it's not being use
+Application will always have Singleton object even if it's not being use
+
     public static final Singleton INSTANCE = new Singleton();
     public static SingletonField getInstance() {
         return uniqueInstance;
