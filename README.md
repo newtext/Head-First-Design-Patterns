@@ -5,4 +5,4 @@
 - [Decorator Pattern](src/com/designpatterns/decorator)
 - [Factory Pattern](src/com/designpatterns/factory)
 - [Singleton Pattern](src/com/designpatterns/singleton)
-  
+- [Command Pattern](src/com/designpatterns/command)  
